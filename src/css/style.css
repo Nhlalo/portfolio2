@@ -42,13 +42,13 @@ h1{
     padding: clamp(1rem, 1rem + 2vw, 3rem);
  
 }
-.introContainer > *{
-    flex: 1 1 0;
+.introContainer > article{
+    flex-grow: 1;
 }
 .introContainer > img{
-    flex-grow: 0.7;
-    width: 0%;
+    width: 50%;
     border-radius: 9px;
+    height: auto;
 }
 article{
     background-color: white;
